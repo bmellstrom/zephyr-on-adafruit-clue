@@ -1,0 +1,6 @@
+# Adafruit CLUE board configuration
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_ADAFRUIT_CLUE
+	bool "Adafruit CLUE"
+	depends on SOC_NRF52840_QIAA
